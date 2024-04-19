@@ -1,4 +1,4 @@
-# Welcome to uHistorian Core Page
+# Welcome to uHistorian Core
 
 uHistorian is an open source data historian programmed in Python and running on Ubuntu Linux plateform.
 The user has the choice of MS SQL Server or MySQL database engines and the user interface is based on 
