@@ -1,6 +1,6 @@
 <div align="center">
 
-# Welcome to uHistCore
+# uHistCore
 
 **The core of uHistorian, an industrial IoT data acquisition platform**
 
@@ -31,11 +31,10 @@ This repository contains the **core** of the platform.
 Installation and usage instructions are provided to customers and partners.
 Contact us at <info@uhistorian.com> to get access.
 
-## Contributing
+## Feedback
 
-Bug reports and suggestions are welcome: open an **issue**, or write to <info@uhistorian.com>.
-
-> **Please never commit** passwords, license keys, tokens, public IP addresses or personal data.
+This repository is read-only for the public: issues and pull requests are limited to collaborators.
+For bug reports, questions or suggestions, write to <info@uhistorian.com>.
 
 ## License
 
