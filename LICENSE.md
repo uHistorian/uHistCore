@@ -117,4 +117,4 @@ of the Software after an update means you accept the updated terms.
 
 ## 14. Contact
 
-[COMPANY LEGAL NAME] · [ADDRESS] · info@uhistorian.com
+info@uhistorian.com
