@@ -1,6 +1,6 @@
 <div align="center">
 
-# uHistCore
+# Welcome to the uHistorian core application repository
 
 **The core of uHistorian, an industrial IoT data acquisition platform**
 
