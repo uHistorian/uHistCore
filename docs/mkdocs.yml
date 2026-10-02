@@ -1,0 +1,106 @@
+site_name: "uHistorian – Documentation"
+site_description: uHistorian installation and user manuals / Manuels d'installation et d'utilisation de uHistorian
+site_url: https://uhistorian.github.io/uHistCore/
+repo_url: https://github.com/uHistorian/uHistCore
+edit_uri: edit/main/docs/
+docs_dir: docs
+
+theme:
+  name: material
+  language: fr
+  font: false
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode clair
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            "Accueil": Home
+            "Manuel d'utilisation": User Manual
+            "Configuration": Configuration
+            "Modules": Modules
+            "Tags": Tags
+            "Groupes de Tags": Tag Groups
+            "Notifications et gestion des événements": Notifications and event management
+            "Paramètres généraux": General settings
+            "Messages": Messages
+            "Sécurité": Security
+            "Interfaces": Interfaces
+            "OPC-UA": OPC-UA
+            "OPC-UA - Client": OPC-UA - Client
+            "OPC-UA - Serveur": OPC-UA - Server
+            "LIDAR-RS485": LIDAR-RS485
+            "Visualisation": Visualization
+            "Dataview sur Web": Dataview on Web
+            "Dataview sur iPhone": Dataview on iPhone
+            "Eventview": Eventview
+            "Maintenance": Maintenance
+            "Changement de mot de passe": Changing a password
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - "Accueil": index.md
+  - "Manuel d'utilisation":
+      - manuel-d-utilisation/index.md
+      - "Configuration":
+          - manuel-d-utilisation/configuration/index.md
+          - "Modules": manuel-d-utilisation/configuration/modules.md
+          - "Tags": manuel-d-utilisation/configuration/tags.md
+          - "Groupes de Tags": manuel-d-utilisation/configuration/groupes-de-tags.md
+          - "Notifications et gestion des événements": manuel-d-utilisation/configuration/notifications-et-gestion-des-evenements.md
+          - "Paramètres généraux": manuel-d-utilisation/configuration/parametres-generaux.md
+          - "Messages": manuel-d-utilisation/configuration/messages.md
+          - "Sécurité": manuel-d-utilisation/configuration/securite.md
+      - "Interfaces":
+          - manuel-d-utilisation/interfaces/index.md
+          - "OPC-UA":
+              - manuel-d-utilisation/interfaces/opc-ua/index.md
+              - "OPC-UA - Client": manuel-d-utilisation/interfaces/opc-ua/opc-ua-client.md
+              - "OPC-UA - Serveur": manuel-d-utilisation/interfaces/opc-ua/opc-ua-serveur.md
+          - "LIDAR-RS485": manuel-d-utilisation/interfaces/lidar-rs485.md
+      - "Visualisation":
+          - manuel-d-utilisation/visualisation/index.md
+          - "Dataview sur Web": manuel-d-utilisation/visualisation/dataview-sur-web.md
+          - "Dataview sur iPhone": manuel-d-utilisation/visualisation/dataview-sur-iphone.md
+          - "Eventview": manuel-d-utilisation/visualisation/eventview.md
+      - "Maintenance":
+          - manuel-d-utilisation/maintenance/index.md
+          - "Changement de mot de passe": manuel-d-utilisation/maintenance/changement-de-mot-de-passe.md
