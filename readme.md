@@ -32,7 +32,6 @@ Installation and usage instructions are provided to customers and partners.
 Contact us at <info@uhistorian.com> to get access.
 
 You can also access the uHistorian user manual on Github at this url:  https://uhistorian.github.io/uHistCore/en/ 
-
 (version du manuel en français sur https://uhistorian.github.io/uHistCore/)
 
 ## Feedback
